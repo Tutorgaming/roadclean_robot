@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>roadclean_robot</name>
+    <version>1.0.0</version>
+    <description>
+        ROS packages for roadclean_robot
+    </description>
+    <license>TODO</license>
+    <author email="tutorgaming@gmail.com">Theppasith Nisitsukcharoen</author>
+
+    <maintainer email="tutorgaming@gmail.com">Theppasith Nisitsukcharoen</maintainer>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <exec_depend>roadclean_base</exec_depend>
+    <exec_depend>roadclean_bringup</exec_depend>
+    <exec_depend>roadclean_sensors</exec_depend>
+    <exec_depend>roadclean_slam</exec_depend>
+    <exec_depend>roadclean_navigation</exec_depend>
+    <export>
+        <metapackage />
+    </export>
+</package>
